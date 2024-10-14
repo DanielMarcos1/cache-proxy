@@ -1,0 +1,27 @@
+{
+  "name": "cache-proxy",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "eslint .",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "cache-proxy": "file:",
+    "http-proxy": "^1.18.1"
+  }
+}
