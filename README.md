@@ -1,7 +1,7 @@
 
 # Cache Proxy
 
-A simple caching proxy server built with Node.js and TypeScript.
+A simple caching proxy server built with Node.js and TypeScript. (this project was meant to achieve roadmap.sh suggestion [here](https://roadmap.sh/projects/caching-server))
 
 ## Features
 
